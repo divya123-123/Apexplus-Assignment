@@ -4,19 +4,19 @@
 
 This project is a simulation application built with React.js and Node.js. The application allows users to create, display, update, and delete scenarios and vehicles. A scenario can have multiple vehicles, and vehicles can move based on the scenario and vehicle parameters. The movement is controlled by user interactions, and the data is stored and managed through a Node.js server.
 
-**##Features**
+**Features**
 
-CRUD Operations: Create, read, update, and delete scenarios and vehicles.
+**CRUD Operations:** Create, read, update, and delete scenarios and vehicles.
 
-Vehicle Movement: Simulate vehicle movement based on parameters such as speed and direction.
+**Vehicle Movement:** Simulate vehicle movement based on parameters such as speed and direction.
 
-Scenario Management: Each scenario has a unique ID, name, and time duration.
+**Scenario Management:** Each scenario has a unique ID, name, and time duration.
 
-Vehicle Management: Each vehicle has a unique ID, name, initial position, speed, and direction.
+**Vehicle Management:** Each vehicle has a unique ID, name, initial position, speed, and direction.
 
-Data Persistence: Data is stored in a JSON file on the server and can be fetched or modified through API requests.
+**Data Persistence:** Data is stored in a JSON file on the server and can be fetched or modified through API requests.
 
-Validation: Ensure vehicle positions do not exceed the graph container size.
+**Validation:** Ensure vehicle positions do not exceed the graph container size.
 
 Technologies Used
 
