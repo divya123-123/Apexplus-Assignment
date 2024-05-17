@@ -1,0 +1,54 @@
+.container {
+  margin-left: 20%;
+  padding: 1px 16px;
+  height: 1000px;
+  position: fixed;
+}
+
+th {
+  width: 110px;
+}
+
+.btnstart,
+.btnstop {
+  height: 30px;
+  width: 110px;
+  color: azure;
+  border-radius: 3px;
+}
+.btnstop {
+  background-color: rgb(39, 145, 187);
+}
+
+.btnstart {
+  background-color: rgb(22, 205, 83);
+}
+
+.buton {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.homebox {
+  box-sizing: border-box;
+  margin: 0;
+  height: 40%;
+  width: 100%;
+  background-size: 200px 200px;
+  background-color: black;
+  background-image: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 99px,
+      rgb(56, 244, 13) 99px,
+      rgb(22, 228, 11) 100px
+    ),
+    repeating-linear-gradient(
+      -90deg,
+      transparent,
+      transparent 99px,
+      rgb(67, 231, 17) 99px,
+      rgb(10, 239, 44) 100px
+    );
+}

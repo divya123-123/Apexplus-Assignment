@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #90b1b8;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li .onclick {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.onclick:hover {
+  background-color: rgb(117, 227, 255);
+  color: rgb(0, 16, 157);
+}
+
+ul li .active {
+  background-color: rgb(201, 225, 231);
+  color: rgb(0, 187, 255);
+}
