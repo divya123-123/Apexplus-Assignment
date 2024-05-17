@@ -37,17 +37,20 @@ To get started with the Vehicle-simulation Assignment, follow these steps:
 cd path/to/your/directory
 
 3. Once you're in the desired directory, use the following command to clone the repository:
+4. 
    git clone https://github.com/divya123-123/Apexplus-Assignment.git
 
-4. Press Enter. Git will begin cloning the repository to your local machine.
+5. Press Enter. Git will begin cloning the repository to your local machine.
 
-5. After the cloning process is complete, navigate into the cloned directory using the `cd` command:
+6. After the cloning process is complete, navigate into the cloned directory using the `cd` command:
+7. 
    cd Apex-Assignment
 
-6. After you have cloned the repository, install the required dependencies by running the following command:
+8. After you have cloned the repository, install the required dependencies by running the following command:
+9. 
    npm install
 
-7. Once the dependencies are installed, start the Vite server by running the following command:
+10. Once the dependencies are installed, start the Vite server by running the following command:
 
 npm start
 
